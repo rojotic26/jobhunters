@@ -35,6 +35,10 @@ describe 'Only future jobs' do
       assert_operator date, :>=, DateTime.now
       end
 
+      it 'City is in CA' do
+        ['Nicaragua','Costa Rica','El Salvador','Belice','Honduras','PanamÃ¡','Guatemala'].must_include city
+      end
+
     end
 
     end
