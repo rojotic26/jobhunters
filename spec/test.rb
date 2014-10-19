@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require '../lib/JobSearch.rb'
-
+#Tests
 jobs_found = JobSearch::Tecoloco.getjobs('marketing')
 
 describe JobSearch do
