@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require './JobSearch.rb'
+require_relative '../lib/JobSearch.rb'
 fail ArgumentError, "Usage:  Job offers [category]\n" if ARGV.count == 0
 category = ARGV[0]
 
