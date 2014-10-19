@@ -5,14 +5,13 @@ jobs_found = JobSearch::Tecoloco.getjobs('marketing')
 
 describe JobSearch do
 
-describe 'Obtaining the jobs' do
-  it 'has the right number of jobs' do
-    jobs_found.size.must_equal 15
+  describe 'Obtaining the jobs' do
+    it 'has the right number of jobs' do
+      jobs_found.size.must_equal 15
+    end
   end
-end
 
-describe 'Only future jobs' do
-
+  describe 'Only future jobs' do
     jobs_found.each do |title, date, city, details|
 
       it 'Title is empty' do
@@ -32,10 +31,8 @@ describe 'Only future jobs' do
       end
 
       it 'Date is future' do
-      assert_operator date, :>=, DateTime.now
+        assert_operator date, :>=, DateTime.now
       end
-
     end
-
-    end
+  end
 end
