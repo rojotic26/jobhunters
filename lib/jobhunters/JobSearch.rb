@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'open-uri'
+require 'date'
 module JobSearch
   # This class get the category of jobs you are looking for and
   # return a hash of job offers information.
