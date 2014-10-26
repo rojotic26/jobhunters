@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require './lib/JobSearch.rb'
+require './lib/jobhunters/JobSearch.rb'
 #Tests
 jobs_found = JobSearch::Tecoloco.getjobs('marketing')
 
@@ -36,7 +36,7 @@ describe JobSearch do
 
 
       it 'City is in CA' do
-        ['Nicaragua','Costa Rica','El Salvador','Belice','Honduras','PanamÃ¡','Guatemala'].must_include city
+        ['Nicaragua','Costa Rica','El Salvador','Belice','Honduras','PanamÃ¡','Guatemala','RepÃºblica Dominicana'].must_include city
       end
 
     end

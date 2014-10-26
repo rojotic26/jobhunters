@@ -1,9 +1,11 @@
 ====================
-JOBHUNTERS: BASED ON TECOLOCO JOB OFFERS IN CENTRAL AMERICA
+JOBHUNTERS
 ---------------------
+[![Build Status](https://travis-ci.org/rojotic26/jobhunters.svg?branch=master)](https://travis-ci.org/rojotic26/jobhunters)
 
 ## Usage
 This gem may be used as a command line utility to obtain information of some job offers in CA by passing a category.
+BASED ON TECOLOCO JOB OFFERS IN CENTRAL AMERICA
 
 ## More Details
 This gem is based on the website: www.tecoloco.com

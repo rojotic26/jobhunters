@@ -3,7 +3,7 @@ require 'jobhunters/version'
 
 Gem::Specification.new do |s|
   s.name        =  'jobhunters'
-  s.version     =  jobhunters::0.1.0
+  s.version     =  JobHunters::VERSION
   s.executables << 'jobhunters'
   s.add_development_dependency 'minitest'
   s.add_development_dependency 'minitest-rg'
