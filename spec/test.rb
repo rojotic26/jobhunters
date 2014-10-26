@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'minitest/autorun'
 require './lib/jobhunters/JobSearch.rb'
 #Tests

@@ -1,9 +1,7 @@
 source "https://rubygems.org"
-gemspec 
+gemspec
 
 gem 'nokogiri'
-gem 'open-uri'
-gem 'jobsearch'
 
 group :test do
   gem 'rake'
