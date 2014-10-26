@@ -16,7 +16,7 @@ This gem may be used as a command line utility to obtain information of some job
 To use the Executable File:
 In order to run the executable file, just include a valid category, in this example we are requesting the marketing and sales offers, so use as a parameter the "marketing-ventas" value.
 
-	./bin/jobhunters 'marketing-ventas'
+	jobhunters 'marketing-ventas'
 
 Other category examples to try are:
 
@@ -25,8 +25,8 @@ Other category examples to try are:
 >call-center.
 
 ## Code Example:
-
-	require_relative '../lib/jobhunters/JobSearch.rb'
+	
+	require 'jobhunters'
 	jobs_found = JobSearch::Tecoloco.getjobs('marketing-ventas')
 	jobs_found.each do |title, date, city|
   	puts "Job offer:#{title} in #{city} until #{date}."
