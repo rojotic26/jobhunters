@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 require 'minitest/autorun'
 require './lib/jobhunters/JobSearch.rb'
 #Tests
@@ -31,9 +30,9 @@ describe JobSearch do
         details.wont_be_nil
       end
 
-    #  it 'Date is future' do
-    #    assert_operator date, :>=, DateTime.now
-    #  end
+      it 'Date is future' do
+        assert_operator date, :>=, DateTime.now
+      end
 
 
       it 'City is in CA' do
