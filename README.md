@@ -20,9 +20,9 @@ In order to run the executable file, just include a valid category, in this exam
 
 Other category examples to try are:
 
->informatica-internet
->administrativo
->call-center
+>informatica-internet,
+>administrativo,
+>call-center.
 
 ## Code Example:
 
