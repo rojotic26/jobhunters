@@ -36,7 +36,7 @@ describe 'Only future jobs' do
       end
 
       it 'City is in CA' do
-        ['Nicaragua','Costa Rica','El Salvador','Belice','Honduras','PanamÃ¡','Guatemala'].must_include city
+        ['Nicaragua','Costa Rica','El Salvador','Belice','Honduras','PanamÃ¡','Guatemala','RepÃºblica Dominicana'].must_include city
       end
 
     end
