@@ -1,20 +1,22 @@
 ====================
-TECOLOCO JOB OFFERS IN CENTRAL AMERICA
+JOBHUNTERS: BASED ON TECOLOCO JOB OFFERS IN CENTRAL AMERICA
 ---------------------
-We have three files:
 
+## Usage
+This gem may be used as a command line utility to obtain information of some job offers in CA by passing a category.
 
-This is our website: www.tecoloco.com
+## More Details
+This gem is based on the website: www.tecoloco.com
 A website to see job offers in Central America. Very famous in Nicaragua and El Salvador.
 
->JobSearch: This class get the category of jobs you are looking for and return a hash of job offers information.
+>lib/JobSearch: This class get the category of jobs you are looking for and return a hash of job offers information.
 >
->extec: This file is our executable file.
+>bin/jobhunters: This file is our executable file.
 >
 >GemFile: This file is just to specified which gems we are using.
 
-THis is an example to run our code:
-./extec 'marketing-ventas'
+This is an example of a category:
+'marketing-ventas'
 
 Our team-members are:
 >Mauricio Jaime - mjboyarov@gmail.com / Nicaragua
