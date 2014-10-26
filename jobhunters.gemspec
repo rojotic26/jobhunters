@@ -16,4 +16,6 @@ Gem::Specification.new do |s|
   s.test_files  =  `git ls-files -- {test,spec,features}/*`.split("\n")
   s.homepage    =  'https://github.com/rojotic26/tecoloco-job-offers.git'
   s.license     =  'MIT'
+
+  s.add_runtime_dependency 'nokogiri', '>= 1.6.2'
 end
