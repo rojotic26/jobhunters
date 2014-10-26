@@ -18,4 +18,5 @@ Gem::Specification.new do |s|
   s.license     =  'MIT'
 
   s.add_runtime_dependency 'nokogiri', '>= 1.6.2'
+  s.add_runtime_dependency 'typhoeus', '>= 0.6.8'
 end
